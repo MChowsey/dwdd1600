@@ -1,0 +1,142 @@
+body {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/*Header*/
+header {
+    background-color: #eaeaea;
+    padding: 1rem 2%;
+}
+header h1 {
+    font-style: italic;
+    margin: 0;
+    color: #024873;
+}
+header p {
+    margin: 0;
+    color: #000000;
+    letter-spacing: .5px;
+}
+
+/*Navigation*/
+nav {
+    background-color: #00b300;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2%;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #000000;
+    color: #e67300;
+}
+nav a:hover {
+    color: #000;
+}
+
+
+/*Main Body*/
+main {
+    padding: 1rem 2%;
+}
+main h1 {
+    color: #e67300;
+}
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #000000;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    list-style-type: circle;
+    padding: .5rem 3%;
+    background-color: #efefef;
+}
+main dl dt {
+    color: #e67300;
+    font-weight: 700;
+}
+main dl dt {
+    color: #000000;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: decimal;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #00b300;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #000000;
+    border-radius: .9rem;
+}
+main a {
+    color: #000000;
+}
+main a:hover {
+    color: rgb(0,0,0);
+}
+
+figure.wassup {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wassup img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wassup figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.pickle photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.pickle photos {
+    margin: .5rem 2% 0 0;
+}
+
+div.pickle photos {
+    text-align: center;
+    font-size: .8rem;
+    color: #e67300;
+}
+
+/*Page Footer*/
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #000000;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #000000;
+}
